@@ -6,7 +6,7 @@ const ctx = canvas.getContext('2d');
 
 // 画像ファイルの読み込み
 const img = new Image();
-img.src = 'HPbar.png';
+img.src = 'images/HPbar.png';
 img.onload = () => {
     canvas.width = img.width;
     canvas.height = img.height;
